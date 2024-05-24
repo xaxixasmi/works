@@ -54,6 +54,7 @@ h1 {
   font-family: "Ethereal", sans-serif; /* Use Ethereal font */
   font-size: 3rem;
   margin: 0;
+  color: blue;
 }
 
 .subheading {
@@ -63,6 +64,7 @@ h1 {
   font-weight: 300; /* Make the text thinner */
   text-align: center;
   font-style: italic;
+  color: blue;
 }
 
 .hovered {
@@ -71,6 +73,7 @@ h1 {
   margin: 10px 0 0 0;
   font-weight: 500; /* Make the text thinner */
   text-align: center;
+  color: blue;
 }
 
 .container {
@@ -97,7 +100,7 @@ h1 {
   content: attr(data-info);
   display: block;
   font-size: 0.8rem;
-  color: #666; /* You can adjust color as needed */
+  color: blue;/* You can adjust color as needed */
   margin-bottom: 20px;
 }
 
@@ -118,17 +121,8 @@ h1 {
   font-family: "Ethereal", sans-serif; /* Use Ethereal font */
   font-size: 3rem;
   margin: 0;
+  
 }
-
-.subheading {
-  font-family: "Avenir", serif;
-  font-size: 1rem;
-  margin: 10px 0 0 0;
-  font-weight: 200; /* Make the text thinner */
-  text-align: center;
-  font-style: italic;
-}
-
 .container {
   width: 100%;
   max-width: 1200px;
