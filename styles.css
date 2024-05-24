@@ -12,6 +12,46 @@ body {
   align-items: center;
 }
 
+.buttons-container {
+  display: flex; /* Use flexbox to arrange buttons side by side */
+  justify-content: center; /* Center buttons horizontally */
+  padding: 10px; /* Add padding around the buttons */
+}
+
+.buttons {
+  color: #f4f4f4;
+  background-color: blue;
+  border-radius: 10px; /* Adjusted border-radius value */
+  font-family: Arial, sans-serif;
+  border: none; /* Removed border properties */
+  padding: 10px 20px; /* Added padding for better button appearance */
+  cursor: pointer; /* Added cursor style */
+  margin: 0 5px; /* Add some margin between buttons */
+  text-align: center; /* Center the text */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.buttons:hover {
+  color: blue;
+  background-color: #f4f4f4;
+  border: 2px solid blue; /* Add border on hover */
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.buttons-container a {
+  color: inherit; /* Inherit color from parent (.buttons) */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.buttons-container a:hover {
+  color: inherit; /* Inherit color from parent (.buttons) on hover */
+}
+
+a{
+  font-family: "Avenir", serif;
+}
+
 .desc{
   font-family: "Avenir", serif;
   font-size: 1.5rem;
@@ -74,6 +114,18 @@ h1 {
   font-weight: 500; /* Make the text thinner */
   text-align: center;
   color: blue;
+  cursor: pointer;
+  transition: font-family 0.5s, font-size 0.5s, margin 0.5s, font-weight 0.5s, color 0.5s; /* Smooth transition for specific properties */
+}
+
+.hovered:hover {
+  font-family: "Avenir", serif;
+  font-size: 1.6rem;
+  margin: 10px 0 0 0;
+  font-weight: 800; /* Make the text thinner */
+  color: blue;
+  cursor: pointer;
+  transition: font-family 0.5s, font-size 0.5s, margin 0.5s, font-weight 0.5s, color 0.5s; /* Smooth transition for specific properties */
 }
 
 .container {
@@ -102,6 +154,8 @@ h1 {
   font-size: 0.8rem;
   color: blue;/* You can adjust color as needed */
   margin-bottom: 20px;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 
